@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+.app button{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.main-container{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 250px;
+}
+
+.card-container input{
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+}
