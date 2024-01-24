@@ -4,6 +4,7 @@
   box-sizing: border-box;
   color: aliceblue;
   font-family: sans-serif;
+  user-select: none;
 }
 
 body,html{
