@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import { PiGithubLogoLight } from "react-icons/pi";
 
 const App = () => {
   const [inputValues, setInputValues] = useState(Array(36).fill(''));
@@ -77,6 +78,7 @@ const App = () => {
   return (
     <>
       <div className='app'>
+       <a href="https://github.com/RD-1996/React-Challenges" target='_blank'><PiGithubLogoLight className='icon-github'/></a>
         <h1>Memory Game</h1>
         <div className='main-container'>
           <div className='card-container'>
@@ -110,6 +112,7 @@ const App = () => {
             <button onClick={resetGame}>Play Again!</button>
           </>
         )}
+        
       </div>
     </>
   );
